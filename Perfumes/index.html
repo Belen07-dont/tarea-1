@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Perfumes</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+      /* New background image solution */
+      body {
+        background-image: url('img/bg.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        min-height: 100vh;
+        position: relative;
+      }
+      .page-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.342);
+        z-index: -1;
+      }
+      .card {
+        background-color: white;
+        position: relative;
+      }
+      /* Special styling for the dark overlay card */
+      .card.text-bg-dark {
+        background-color: rgba(0, 0, 0, 0.7) !important;
+      }
+      .card.text-bg-dark .card-img-overlay {
+        background-color: transparent;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Background overlay div -->
+    <div class="page-overlay"></div>
+  
+    <nav class="navbar navbar-expand-lg mb-4 nav rounded-bottom bg-black">
+      <div class="container-fluid">
+        <img src="img/logo.png" alt="" class="logo">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-white fw-bolder fs-3" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fw-bolder fs-3" href="#">Seccion Masculina</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fw-bolder fs-3" href="mujeres.html">Seccion Femenina</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <div class="card text-bg-dark">
+      <img src="img/c.jpg" class="card-img" alt="...">
+      <div class="card-img-overlay">
+        <h5 class="fs-2 my-2 py-2">Frambuesas</h5>
+        <p class="card-text py-2 fs-6">La frambuesa es una fruta rica en antioxidantes, vitaminas (como la C y K) y fibra, que fortalece el sistema inmunológico, mejora la salud digestiva y protege contra el daño celular. Su bajo índice glucémico la hace ideal para dietas equilibradas, mientras que sus compuestos antiinflamatorios ayudan a reducir el riesgo de enfermedades crónicas. Además, favorece la salud cardiovascular, contribuye a una piel radiante y, gracias a su contenido de ácido
+          elágico, puede tener propiedades anticancerígenas. ¡Dulce, nutritiva y versátil, es un superalimento delicioso!</p>
+        
+           <button class="btn btn-perfume mt-3 bg-black">
+                <i class="bi bi-cart-plus text-white"></i> Compra ya!
+              </button>
+      </div>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-3 g-5 m-3">
+      <div class="col">
+        <div class="card">
+          <img src="img/1.jpg" class="card-img-top stock" alt="...">
+          <div class="card-body">
+            <h5 class="card-title fs-4">Dolce and Gabbana Light Blue</h5>
+            <br>
+            <p class="card-text">Dolce & Gabbana Light Blue es una fragancia icónica que encapsula la esencia del Mediterráneo con un aura fresca y vibrante. Abre con notas jugosas de limón siciliano y manzana verde, seguidas por un corazón floral de jazmín y bambú, que evoca brisas marinas y días soleados.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="img/2.jpg" class="card-img-top stock" alt="...">
+          <div class="card-body">
+            <h5 class="card-title fs-4">Tom Ford Lost Cherry</h5>
+            <br>
+            <p class="card-text">Lost Cherry es una fragancia audaz y seductora que juega con la contradicción entre lo tentadoramente dulce y lo profundamente sensual con un toque ácido de licor amaretto que evoca indulgencia y misterio. 
+              Ideal para noches de pasión o momentos donde la provocación es parte del juego.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="img/3.jpg" class="card-img-top stock" alt="...">
+          <div class="card-body">
+            <h5 class="card-title fs-4">Vanilla Mockup</h5>
+            <br>
+            <p class="card-text">Este perfume de vainilla es una sinfonía de dulzura cálida y sensualidad reconfortante. La vainilla, protagonista absoluta, despliega su riqueza cremosa y envolvente, con
+              notas suaves de caramelo y un toque de ámbar, añade profundidad y luminosidad al aroma de este perfume.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="img/4.jpg" class="card-img-top stock" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">WeWood Cedar</h5>
+            <br>
+            <p class="card-text">WeWood Cedar es una fragancia que captura la esencia pura y atemporal de los bosques milenarios. Abre con una explosión fresca de cedro recién cortado, mezclado con notas verdes de ciprés y un toque cítrico de bergamota,
+              que evocan la brisa matutina entre los árboles.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="img/5.jpg" class="card-img-top stock" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Irresistible Givenchy</h5>
+            <br>
+            <p class="card-text">Irresistible de Givenchy es una fragancia floral-musgosa que encarna la elegancia audaz y la feminidad moderna. Abre con una nota jugosa y vibrante de pera fresca, 
+              iluminada por la delicadeza del iris, creando un contraste entre lo frutal y lo sofisticado.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="img/9.jpg" class="card-img-top stock" alt="...">
+         <div class="card-body">
+            <h5 class="card-title">Blueberry Mist</h5>
+            <br>
+            <p class="card-text">Blueberry Mist es una fragancia frutal-acuática que transporta a un bosque de bayas cubierto por el rocío de la mañana. Abre con una explosión jugosa de arándanos 
+              silvestres y moras, mezcladas con un toque cítrico de pomelo rosado.</p>
+          </div>
+        </div>
+      </div>
+
+       <div class="col">
+        <div class="card">
+          <img src="img/6.jpg" class="card-img-top stock" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Vanilla Mist</h5>
+            <br>
+            <p class="card-text">Vanilla Mist* es una fragancia que envuelve los sentidos como un sueño cálido y reconfortante. Combina la cremosidad sedosa de la vainilla de Madagascar con toques 
+              frescos de coco y almendra, creando un contraste entre lo gourmand y lo etéreo.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="img/7.jpg" class="card-img-top stock" alt="...">
+         <div class="card-body">
+            <h5 class="card-title">Vanilla Extract</h5>
+            <br>
+            <p class="card-text">Vanilla Extract es una celebración pura y lujosa de la vainilla en su forma más exquisita. Este perfume captura la esencia intensa y cremosa de las vainas de vainilla
+              de Tahití, maceradas en un elixir sedoso que evoca la calidez de un postre recién horneado.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="img/8.jpg" class="card-img-top stock" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Rose Mist</h5>
+            <br>
+            <p class="card-text">Rose Mist es un homenaje a la rosa en su estado más puro y delicado, capturada en un instante de frescura matutina. Abre con una lluvia de pétalos de rosa de Bulgaria,
+              húmedos de rocío, mezclados con un toque verde de hojas de violeta que añade un susurro silvestre.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid bg-black text-white py-4 mt-5 footer">
+      <div class="container">
+        <div class="row g-3">
+          <!-- Contact Information -->
+          <div class="col-12 col-md-4 p-3">
+            <h3 class="h5">Restaurante Catracho</h3>
+            <address class="mb-0">
+              <p class="mb-1">123 Rue de la Pâtisserie</p>
+              <p class="mb-1">París, Francia 75001</p>
+              <p class="mb-1">+504 1234 5689</p>
+              <p class="mb-0">info@belle-epoque.com</p>
+            </address>
+          </div>
+
+          <!-- Links/Content Section -->
+          <div class="col-12 col-md-4 p-3">
+            <h3 class="h5">Enlaces Rápidos</h3>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-white text-decoration-none">Menú</a></li>
+              <li><a href="#" class="text-white text-decoration-none">Reservaciones</a></li>
+              <li><a href="#" class="text-white text-decoration-none">Galería</a></li>
+            </ul>
+          </div>
+
+          <!-- Hours Section -->
+          <div class="col-12 col-md-4 p-3">
+            <h3 class="h5">Conéctate</h3>
+            <div class="d-flex gap-3">
+              <a href="#" class="text-white fs-4"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="text-white fs-4"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="text-white fs-4"><i class="bi bi-tiktok"></i></a>
+              <a href="#" class="text-white fs-4"><i class="bi bi-whatsapp"></i></a>
+            </div>
+          </div>
+
+        <!-- Copyright -->
+        <div class="row mt-3">
+          <div class="col-12">
+            <p class="text-center mb-0 small">© 2023 Belen Ferrera Arias. Todos los derechos reservados.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

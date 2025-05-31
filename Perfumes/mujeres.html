@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Perfumes</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+      /* New background image solution */
+      body {
+        background-image: url('img/bg.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        min-height: 100vh;
+        position: relative;
+      }
+      .page-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.342);
+        z-index: -1;
+      }
+      .card {
+        background-color: white;
+        position: relative;
+      }
+    </style>
+  </head>
+  <body>
+    
+    <div class="page-overlay"></div>
+  
+    <nav class="navbar navbar-expand-lg mb-4 nav rounded-bottom bg-black">
+      <div class="container-fluid">
+        <img src="img/logo.png" alt="" class="logo text-white">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-white fw-bolder fs-4 " href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fw-bolder fs-4 " href="hombres.html">Seccion Masculina</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fw-bolder fs-4 " href="#">Seccion Femenina</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-lg">
+      <div class="card mb-3 m-4 p-2">
+        <div class="row g-0">
+          <div class="col-md-6">
+            <img src="img/Rose_Water.webp" class="img-fluid rounded-start stock2" alt="Perfume">
+          </div>
+          <div class="col-md-6">
+            <div class="card-body">
+              <br>
+              <h5 class="card-title fs-2 fw-bold text-center">Rose Water </h5>
+              <br>
+              <p class="card-text mt-2 text-justify">Este exquisito perfume de agua de rosas es una delicada fusión de frescura y romanticismo. Captura la esencia pura de pétalos de rosa recién cortados, combinando notas florales dulces y ligeramente almizcladas con un toque refrescante que evoca un jardín al amanecer. Su aroma es elegante y atemporal, perfecto para quienes buscan un perfume sutil pero memorable, que deje un rastro sofisticado y femenino. Ideal para uso diario, este fragrancia equilibra la suavidad de las rosas con un acabado 
+                limpio y revitalizante, como un aroma natural que abraza la piel con delicadeza.</p>
+              <button class="btn btn-perfume mt-3 bg-black">
+                <i class="bi bi-cart-plus text-white"></i> Add to Cart
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3 m-4 p-2">
+        <div class="row g-0">
+          <div class="col-md-6">
+            <img src="img/lavander.jpg" class="img-fluid rounded-start stock2" alt="Perfume">
+          </div>
+          <div class="col-md-6">
+            <div class="card-body">
+              <br>
+              <h5 class="card-title fs-2 fw-bold text-center">Lavander</h5>
+              <br>
+              <p class="card-text mt-2 text-justify">Este perfume de lavanda es una armonía relajante entre lo fresco y lo aromático, capturando la esencia pura de campos de lavanda en plena floración. Combina notas herbáceas y ligeramente dulces con un toque terroso, evocando la calma de la Provenza al atardecer. Su aroma es equilibrado: floral pero no empalagoso, con un dejo amaderado y un acabado limpio que lo hace versátil para cualquier momento del día. Ideal para quienes buscan una fragancia serena pero con carácter, este perfume envuelve 
+                la piel con una sensación de tranquilidad y elegancia natural, como una brisa suave entre matices morados.</p>
+              <button class="btn btn-perfume mt-3 bg-black">
+                <i class="bi bi-cart-plus text-white"></i> Add to Cart
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3 m-4 p-2">
+        <div class="row g-0">
+          <div class="col-md-6">
+            <img src="img/straw.jpg" class="img-fluid rounded-start stock2" alt="Perfume">
+          </div>
+          <div class="col-md-6">
+            <div class="card-body">
+              <br>
+              <h5 class="card-title fs-2 fw-bold text-center">Strawberry</h5>
+              <br>
+              <p class="card-text mt-2 text-justify">Este perfume de lavanda es una armonía relajante entre lo fresco y lo aromático, capturando la esencia pura de campos de lavanda en plena floración. Combina notas herbáceas y ligeramente dulces con un toque terroso, evocando la calma de la Provenza al atardecer. Su aroma es equilibrado: floral pero no empalagoso, con un dejo amaderado y un acabado limpio que lo hace versátil para cualquier momento del día. Ideal para quienes buscan una fragancia serena pero con carácter, este perfume envuelve 
+                la piel con una sensación de tranquilidad y elegancia natural, como una brisa suave entre matices morados.</p>
+              <button class="btn btn-perfume mt-3 bg-black">
+                <i class="bi bi-cart-plus text-white"></i> Add to Cart
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid bg-black text-white py-4 mt-4 footer mt-5">
+      <div class="container">
+        <div class="row g-3">
+          <!-- Contact Information -->
+          <div class="col-12 col-md-4 p-3">
+            <h3 class="h5">Restaurante Catracho</h3>
+            <address class="mb-0">
+              <p class="mb-1">123 Rue de la Pâtisserie</p>
+              <p class="mb-1">París, Francia 75001</p>
+              <p class="mb-1">+504 1234 5689</p>
+              <p class="mb-0">info@belle-epoque.com</p>
+            </address>
+          </div>
+
+          <!-- Links/Content Section -->
+          <div class="col-12 col-md-4 p-3">
+            <h3 class="h5">Enlaces Rápidos</h3>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-white text-decoration-none">Menú</a></li>
+              <li><a href="#" class="text-white text-decoration-none">Reservaciones</a></li>
+              <li><a href="#" class="text-white text-decoration-none">Galería</a></li>
+            </ul>
+          </div>
+
+          <!-- Hours Section -->
+          <div class="col-12 col-md-4 p-3">
+            <h3 class="h5">Conéctate</h3>
+            <div class="d-flex gap-3">
+              <a href="#" class="text-white fs-4"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="text-white fs-4"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="text-white fs-4"><i class="bi bi-tiktok"></i></a>
+              <a href="#" class="text-white fs-4"><i class="bi bi-whatsapp"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="row mt-3">
+          <div class="col-12">
+            <p class="text-center mb-0 small">© 2023 Belen Ferrera Arias. Todos los derechos reservados.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

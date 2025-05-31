@@ -1,0 +1,147 @@
+
+.card-img{
+  height: 350px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.logo{
+    width: 250px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.stock{
+    height: 500px;
+    width: auto;
+    object-fit: cover;
+    margin: 5px;
+}
+
+.stock2{
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+    margin: 5px;
+}
+
+.nav-item:hover{
+  color: #f01249;
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); 
+}
+.card-img-top.stock {
+  transition: opacity 0.3s ease;
+}
+.card:hover .card-img-top.stock {
+  opacity: 0.9;
+}
+.card:hover .card-title {
+  color: #f01249; 
+}
+
+.navbar-nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar {
+  position: relative;
+  z-index: 1000; /* Higher than overlay */
+}
+
+.btn-perfume {
+  background-color: #9d8189; /* Muted rose color */
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 30px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-perfume:hover {
+  background-color: #7d5a6c; /* Darker shade */
+  color: white;
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(157, 129, 137, 0.4);
+}
+
+/* Basic bg-image class */
+.bg-image {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative; 
+}
+
+.bg-image-overlay::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.342);
+
+}
+
+.nav-item .nav-link {
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.nav-item .nav-link:hover {
+  color: #ff6b6b !important; 
+  transform: translateY(-2px);
+}
+
+.nav-item .nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #ff6b6b;
+  transition: width 0.3s ease;
+}
+
+.bg-image-overlay-light::before {
+  background-color: rgb(255, 255, 255);
+}
+
+.bg-image-content {
+  position: relative;
+  z-index: 1;
+}
+
+.bg1{
+    background-color: rgba(0, 0, 0, 0.493);
+    color: white;
+}
+
+.nav{
+  background-color: rgb(241, 241, 241);
+
+}
+
+.footer {
+  position: relative; 
+  z-index: 2;
+}
+
+.bg-image-overlay::before {
+  z-index: 1; 
+}
